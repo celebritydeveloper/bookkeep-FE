@@ -1,5 +1,18 @@
 body {
+  color: #2B292D;
   margin: 0;
   padding: 0;
+}
+
+.header {
+  background: -webkit-gradient(linear, left top, right top, from(rgba(243, 198, 189, 0.6)), to(rgba(243, 198, 189, 0.6))), url("../img/ouch.svg") no-repeat;
+  background: linear-gradient(to right, rgba(243, 198, 189, 0.6), rgba(243, 198, 189, 0.6)), url("../img/ouch.svg") no-repeat;
+  background-position: 490px 130px;
+  background-size: 800px;
+  height: 650px;
+}
+
+.header--sub {
+  width: 400px;
 }
 /*# sourceMappingURL=style.css.map */

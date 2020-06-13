@@ -1,4 +1,23 @@
+
+$black: #2B292D;
+$blue: #3040C4;
+$light-orange: #F3C6BD;
+$green: #009B4D;
+$orange: #F1592B;
+
 body {
+    color: $black;
     margin: 0;
     padding: 0;
+}
+
+.header {
+    background: linear-gradient(to right, rgba(243, 198, 189,0.6), rgba(243, 198, 189,0.6)), url('../img/ouch.svg') no-repeat;
+    background-position: 490px 130px;
+    background-size: 800px;
+    height: 650px;
+
+    &--sub {
+        width: 400px;
+    }
 }
