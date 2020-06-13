@@ -1,5 +1,6 @@
 body {
   color: #2B292D;
+  font-family: "Work Sans";
   margin: 0;
   padding: 0;
 }
@@ -14,5 +15,13 @@ body {
 
 .header--sub {
   width: 400px;
+}
+
+.what {
+  background: #f4f5f7;
+}
+
+.what--text {
+  width: 370px;
 }
 /*# sourceMappingURL=style.css.map */

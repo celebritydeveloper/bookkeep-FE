@@ -7,6 +7,7 @@ $orange: #F1592B;
 
 body {
     color: $black;
+    font-family: "Work Sans";
     margin: 0;
     padding: 0;
 }
@@ -19,5 +20,13 @@ body {
 
     &--sub {
         width: 400px;
+    }
+}
+
+.what {
+    background: rgb(244, 245, 247);
+
+    &--text {
+        width: 370px;
     }
 }
