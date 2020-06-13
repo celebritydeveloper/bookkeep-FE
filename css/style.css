@@ -28,4 +28,27 @@ body {
 .news img {
   height: 30px;
 }
+
+.feature .card-header {
+  background: transparent;
+  padding-bottom: 0;
+}
+
+.feature .card-body {
+  padding-top: 2px;
+}
+
+.feature--title {
+  color: #009B4D;
+}
+
+.feature--icon {
+  margin-right: 10px;
+}
+
+.feature--btn {
+  color: #3040C4;
+  cursor: pointer;
+  font-size: 1rem;
+}
 /*# sourceMappingURL=style.css.map */
