@@ -44,6 +44,7 @@ a:hover {
   background-position: 490px 110px;
   background-size: 800px;
   height: 700px;
+  width: 100%;
 }
 
 .header .nav--link {
@@ -54,6 +55,12 @@ a:hover {
 .header .nav--link:hover {
   background: #fff;
   color: #009B4D;
+}
+
+.header-1 {
+  background: white;
+  -webkit-box-shadow: 10px 10px 5px  blue;
+          box-shadow: 10px 10px 5px  blue;
 }
 
 .what {
@@ -121,5 +128,55 @@ a:hover {
 .footer--links a:hover {
   color: #009B4D;
   text-decoration: none;
+}
+
+.footer--two {
+  background: white;
+}
+
+.footer--two .list-group {
+  background: none;
+}
+
+.footer--two .list-group-item {
+  background: none;
+}
+
+.footer--two--links a {
+  color: #2B292D;
+  text-decoration: none;
+  padding: 0 12px;
+}
+
+.footer--two--links a:hover {
+  color: #009B4D;
+  text-decoration: none;
+}
+
+.price {
+  background: #f4f5f7;
+}
+
+.price .card-body img {
+  width: 130px;
+}
+
+.price .list-group-item {
+  background: none;
+  padding: 8px;
+}
+
+.price .card-deck .standard {
+  border: 1.5px solid orange;
+}
+
+.price .standard .card-footer {
+  background: #fff;
+  margin-top: 0;
+}
+
+.support a {
+  color: #3040C4;
+  text-decoration: underline;
 }
 /*# sourceMappingURL=style.css.map */
