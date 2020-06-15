@@ -52,6 +52,7 @@ a:hover {
     background-position: 490px 110px;
     background-size: 800px;
     height: 700px;
+    width: 100%;
 
     &--sub {
         width: 400px;
@@ -66,6 +67,13 @@ a:hover {
         background: #fff;
         color: $green;
     }
+    
+}
+
+.header-1 {
+    background: white;
+    box-shadow: 10px 10px 5px  blue;
+
     
 }
 
@@ -145,3 +153,58 @@ a:hover {
         text-decoration: none;
     }
 }
+
+.footer--two {
+    background: rgb(255, 255, 255);
+
+    .list-group {
+        background: none;
+    }
+
+    .list-group-item {
+        background: none;
+    }
+
+    &--links a{
+        color: $black;
+        text-decoration: none;
+        padding: 0 12px;
+
+    }
+
+    &--links a:hover{
+        color: $green;
+        text-decoration: none;
+    }
+}
+
+
+.price {
+    background: rgb(244, 245, 247);
+
+    .card-body img {
+        width: 130px;
+    }
+
+    .list-group-item {
+        background:  none;
+        padding: 8px;
+    }
+
+    .card-deck .standard {
+        border: 1.5px solid orange;
+    }
+
+    .standard .card-footer {
+        background: #fff;
+        margin-top: 0;
+    }
+}
+
+.support {
+    a {
+        color: $blue;
+        text-decoration: underline;
+    }
+}
+
