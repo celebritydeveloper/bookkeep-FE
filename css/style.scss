@@ -12,12 +12,12 @@ $orange: #F1592B;
   
   /* Track */
   ::-webkit-scrollbar-track {
-    background: $blue;
+    background: #fff;
   }
   
   /* Handle */
   ::-webkit-scrollbar-thumb {
-    background: #ffe;
+    background: $green;
   }
   
   /* Handle on hover */
@@ -36,6 +36,17 @@ body {
     padding: 0;
 }
 
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: $black;
+    text-decoration: none;
+}
+
+
+
 .header {
     background: linear-gradient(to right, rgba(243, 198, 189,0.6), rgba(243, 198, 189,0.6)), url('../img/ouch.svg') no-repeat;
     background-position: 490px 110px;
@@ -53,7 +64,7 @@ body {
 
     .nav--link:hover {
         background: #fff;
-        color: $blue;
+        color: $green;
     }
     
 }
@@ -92,7 +103,7 @@ body {
     }
 
     &--btn {
-        color: $blue;
+        color: $green;
         cursor: pointer;
         font-size: 1rem;
     }
@@ -102,7 +113,7 @@ body {
     background: rgb(252, 240, 227);
 
     &--testimonial {
-        border-bottom: 1.5px solid $blue;
+        border-bottom: 1.5px solid $green;
         padding: 10px;
     }
 }
@@ -127,5 +138,10 @@ body {
         text-decoration: none;
         padding: 0 12px;
 
+    }
+
+    &--links a:hover{
+        color: $green;
+        text-decoration: none;
     }
 }
