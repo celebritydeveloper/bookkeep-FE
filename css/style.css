@@ -60,4 +60,8 @@ body {
   border-bottom: 1.5px solid #3040C4;
   padding: 10px;
 }
+
+.audience {
+  background: rgba(0, 161, 198, 0.3);
+}
 /*# sourceMappingURL=style.css.map */
