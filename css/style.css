@@ -1,3 +1,27 @@
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #3040C4;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #ffe;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   color: #2B292D;
   font-family: "Work Sans";

@@ -5,6 +5,30 @@ $light-orange: #F3C6BD;
 $green: #009B4D;
 $orange: #F1592B;
 
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: $blue;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #ffe;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     color: $black;
     font-family: "Work Sans";
